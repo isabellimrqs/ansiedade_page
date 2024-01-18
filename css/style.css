@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #47B0CD;
+  width: 2px;
+}
+body{
+  background-color: #e3f2fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header_left img{
+  object-fit: contain;
+  height: 52px;
+  margin-right: 10px;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly;
+  border-bottom: .1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #47B0CD;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.header_left{
+  display: flex;
+
+}
+
+.header_right{
+  display: flex;
+  margin-top: 15px;
+}
+
+.header_search{
+  padding: 10px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 42px;
+  color: gray;
+  background-color: rgba(255, 255, 255, 0.21);
+}
+
+.header_search > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.headerOption{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.headerOption:hover{
+  color: rgb(140, 209, 227);
+}
+
+.headerOption h3{
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.headerOption_icon{
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+/*Início do Game*/
+
+.game{
+  padding-top: 65px;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.input label {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.input select {
+  border: none;
+  border-radius: 8px;
+  min-width: 300px;
+  font-size: 16px;
+  padding: 8px 4px;
+  background-color: #3AA9C7;
+  color: #fff;
+}
+
+.input select:focus {
+  outline: none;
+}
+
+.circle-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.circle-outline {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 15px solid #8A3274;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.circle-progress {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: #3AA9C7;
+  border-radius: 50%;
+  transition: 4s ease all;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.circle-grow {
+  transform: scale(5.3);
+}
+
+.breaths {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.instructions {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #3AA9C7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+button:hover {
+  background-color: #f1f1f1;
+  color: #36b5ff;
+}
+
+.button-inactive {
+  pointer-events: none;
+  background-color: #3AA9C7;
+}
+/*Fim do Game*/
+
+.mascote2{
+  margin-right: 1200px;
+} 
+
+
+.mascote_game_ansiedade{
+  margin-right: 400px;
+  justify-content: space-evenly;
+  
+} 
+
+.container{
+  flex-direction: row-reverse;
+  display: flex;
+  width: 1000px;
+  margin-top: 5px;
+  padding-top: 50px;
+}
+
+h1{
+  margin-left: 650px;
+  padding-top: 85px;
+  color: #8A3274;
+}
+
+.title_subtitle{
+  font-size: 45px;
+  text-align: center;
+  padding-top: 65px;
+} 
+.title_subtitle > h2{
+  color: #8A3274;
+}
+
+.title_subtitle > h3{
+  color: #536595;
+}
+
+.mascote_title_ansiedade {
+  margin-left: 820px;
+  margin-top:15px;
+}
+
+.container_title_ansiedade{
+  background-color: red;
+  flex-direction: row-reverse;
+  display: flex;
+  width: 1700px;
+  margin-top: 5px;
+  padding-top: 50px;
+}
+
+.quadrado{
+  background-color: white;
+  width: 20px;
+  height: 200px;
+  /* box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2);
+  margin-left: 250px; */
+}
+
+
+/* .imgs img{
+  width: 1910px;
+}
+.imgs{
+  column-gap: 1px;
+} */
