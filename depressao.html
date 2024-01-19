@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_pags.css">
     <title>Depressão</title>
 </head>
 <body>
@@ -40,11 +40,77 @@
         <h1>O CalMigo tem um desafio para você</h1>
         </div>
         <!--Início do game-->
-        <div class="container_tda">
-        <div class="quebra_cabeca">
-            <!-- <a href="https://www.jspuzzles.com/en/person/1015859?key=433c672645&size=&cut=&scale=">
-            <img src="./img/quebra_cabeca.png" alt="">
-            </a> -->
+        <div class="container_depressao">
+        <div class="calendario_depressao">
+               <title>Calendário de Afazeres</title>
+  
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="calendar">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">janeiro 2024</div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            <div>D</div>
+            <div>S</div>
+            <div>T</div>
+            <div>Q</div>
+            <div>Q</div>
+            <div>S</div>
+            <div>S</div>
+          </div>
+          <div class="days"></div>
+          <div class="goto-today">
+            <div class="goto">
+              <input type="text" placeholder="mm/yyyy" class="date-input" />
+              <button class="goto-btn">Ir</button>
+            </div>
+            <button class="today-btn">Hoje</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="today-date">
+          <div class="event-day">Qua</div>
+          <div class="event-date">17 janeiro 2024</div>
+        </div>
+        <div class="events"></div>
+        <div class="add-event-wrapper">
+          <div class="add-event-header">
+            <div class="title">Adicionar Tarefas </div>
+            <i class="fas fa-times close"></i>
+          </div>
+          <div class="add-event-body">
+            <div class="add-event-input">
+              <input type="text" placeholder="Adicionar Tarefas para realizar:" class="event-name" />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="Em que horário iniciou a tarefa: "
+                class="event-time-from"
+              />
+            </div>
+            <div class="add-event-input">
+              <input
+                type="text"
+                placeholder="Em que horário finalizou a tarefa: "
+                class="event-time-to"
+              />
+            </div>
+          </div>
+          <div class="add-event-footer">
+            <button class="add-event-btn">Adicionar Tarefas Nova</button>
+          </div>
+        </div>
+      </div>
+      <button class="add-event">
+        <i class="fas fa-plus">Add</i>
+      </button>
+    </div>
         </div>
            <!--Fim do game-->
         <div class="mascote_tda">
@@ -90,7 +156,7 @@
 
     <!--Slide 28-->
     <div class="img_slide28 efeito-scroll-reveal">
-        <img src="./img/slide28.png" alt="img_slide19" srcset="">
+        <img src="./img/slide28.png" alt="img_slide28" srcset="">
     </div>
             
     <div class="quadrado28 efeito-scroll-reveal">
@@ -141,8 +207,27 @@
         </div> 
     <!--Fim do Slide 31-->
 
+       <!--Footer-->
+       <footer>
+        <div class="finally">
+            <div class="all_image">
+                <img src="../img/facebook.svg" alt="icone de imagem do facebook">
+            
+                <img src="../img/twitter.svg" alt="icone de imagem do twitter">
+
+                <img src="../img/linkedin.svg" alt="icone de imagem do linkedin">
+
+                <img src="../img/instagram.svg" alt="icone de imagem do instagram">
+            </div>
+            <div class="second_image">
+                <img src="../img/Bosch_symbol_logo_white.svg" alt="imagem da logo da bosch">
+            </div>
+        </div>
+    </footer>
 
 
+
+    <script src="./js/calendar.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/scroll.js" defer></script>
 </body>
