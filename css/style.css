@@ -216,11 +216,16 @@ button:hover {
   padding-top: 50px;
 }
 
+/*Testando ScrollReveal*/
+.efeito-scroll-reveal{
+  visibility: hidden;
+}
 h1{
   margin-left: 650px;
   padding-top: 85px;
   color: #8A3274;
 }
+
 
 .title_subtitle{
   font-size: 45px;
@@ -235,32 +240,1027 @@ h1{
   color: #536595;
 }
 
-.mascote_title_ansiedade {
-  margin-left: 820px;
-  margin-top:15px;
+/*Efeito flutuante CalMigo*/
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-30px)
+	}
+}
+.efeito-flutuante-infinito {
+     animation: float 3s ease-in-out infinite;
 }
 
-.container_title_ansiedade{
-  background-color: red;
-  flex-direction: row-reverse;
+/*INÍCIO DA PÁGINA DE ANSIEDADE*/
+
+/*Slide 1*/
+.mascote_title_ansiedade img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 2*/
+.mascote_title_ansiedade2 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado2{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado2 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 3*/
+
+.mascote_title_ansiedade3 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado3{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado3 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 4*/
+.quadrado4{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 250px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3350px;
+  left: 380px;
+}
+
+
+.quadrado4 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide4 img{
+  width: 1865px;
+  position: relative;
+
+}
+.img_slide4{
+  background-color: #C6D5E6;
+}
+
+/*Slide 5*/
+.quadrado5{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 5150px;
+  left: 380px;
+}
+
+
+.quadrado5 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide5 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 6*/
+.mascote_title_ansiedade6 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado6{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 200px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado6 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 7*/
+.mascote_title_ansiedade7 img{
+  margin-top:35px;
+  margin-left: 820px;
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+
+}
+
+.quadrado7{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 50px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-top: 55px;
+}
+
+.quadrado7 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.books{
+  position: relative;
+  bottom: 450px;
+  right: 95px;
+}
+
+/*Slide 8*/
+.mascote_title_ansiedade8 img{
+  margin-bottom:35px;
+  margin-right: 820px;
+  
+}
+
+.quadrado8{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado8 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*FIM DA PÁGINA DE ANSIEDADE*/
+
+/*INÍCIO DA PÁGINA DE TDA*/
+.container_tda{
+  flex-direction: row;
   display: flex;
-  width: 1700px;
+  width: 1000px;
   margin-top: 5px;
   padding-top: 50px;
 }
 
-.quadrado{
-  background-color: white;
-  width: 20px;
+.mascote_tda{
+  margin-left:50px;
+  justify-content: space-evenly;
+}
+
+/*Slide 9*/
+.mascote_title_ansiedade9 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado9{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado9 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 10*/
+.quadrado10{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 130px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3350px;
+  left: 380px;
+}
+
+
+.quadrado10 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide10 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 11*/
+.mascote_title_ansiedade11 img{
+  margin-top:35px;
+
+}
+
+.quadrado11{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  /* margin-right: 210px;  */
+  margin-bottom: 45px;
+}
+
+
+.quadrado11> p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.diferenca{
+  font-size: 100px;
+  font-weight: 600;
+  color: gray;
+}
+
+/*Slide 12*/
+.mascote_title_ansiedade12 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado12{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado12> p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 13*/
+.quadrado13{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 130px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 5920px;
+  left: 380px;
+}
+
+
+.quadrado13 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide13 img{
+  width: 1865px;
+  position: relative;
+
+}
+/*FIM DA PÁGINA DE TDA*/
+
+/*INÍCIO DA PÁGINA DE FOBIA SOCIAL*/
+
+/*Slide 14*/
+.mascote_title_ansiedade14 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado14{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado14 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 15*/
+.quadrado15{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 130px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3950px;
+  left: 380px;
+}
+
+
+.quadrado15 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide15 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+.img_slide15{
+  background-color:#E4E6EC;
+}
+
+
+
+/*Slide 16*/
+.quadrado16{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 130px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 4950px;
+  left: 380px;
+}
+
+
+.quadrado16 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide16 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 17*/
+.mascote_title_ansiedade17 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado17{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado17 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*FIM DA PÁGINA DE FOBIA SOCIAL*/
+
+/*INÍCIO DA PÁGINA DE TRANSTORNO DO PÂNICO*/
+
+/*Slide 18*/
+.mascote_title_ansiedade18 img{
+  margin-top:35px;
+  margin-left: 820px;
+}
+
+.quadrado18{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
   height: 200px;
-  /* box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2);
-  margin-left: 250px; */
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
 }
 
 
-/* .imgs img{
-  width: 1910px;
+.quadrado18 > p{
+  font-size: 25px;
+  font-weight: 500;
 }
-.imgs{
-  column-gap: 1px;
-} */
+
+/*Slide 19*/
+.quadrado19{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3950px;
+  left: 380px;
+}
+
+
+.quadrado19 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide19 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 20*/
+.quadrado20{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 5000px;
+  left: 380px;
+}
+
+
+.quadrado20 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide20 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 21*/
+.mascote_title_ansiedade21 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado21{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 112px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado21> p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+/*FIM DA PÁGINA DE TRANSTORNO DO PÂNICO*/
+
+/*INÍCIO DA PÁGINA DE TRANSTORNOS ALIMENTARES*/
+
+/*Slide 22*/
+.mascote_title_ansiedade22 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado22{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado22 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 23*/
+.quadrado23{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3850px;
+  left: 380px;
+}
+
+
+.quadrado23 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide23 img{
+  width: 1865px;
+  position: relative;
+}
+
+  /*Slide 24*/
+.quadrado24{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 4300px;
+  left: 790px;
+}
+
+
+.quadrado24 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide24 img{
+  width:1865px;
+  position: relative;
+
+}
+
+/*Slide 25*/
+.mascote_title_ansiedade25 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado25{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 150px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado25 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 26*/
+.quadrado26{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 90px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 6800px;
+  left: 380px;
+}
+
+
+.quadrado26 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide26 img{
+  width: 1865px;
+  position: relative;
+}
+
+
+/*FIM DA PÁGINA DE TRANSTORNOS ALIMENTARES*/
+
+/*INÍCIO DA PÁGINA DE DEPRESSÃO*/
+
+/*Slide 27*/
+.mascote_title_ansiedade27 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado27{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado27 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 28*/
+.quadrado28{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3950px;
+  left: 380px;
+}
+
+.quadrado28 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide28 img{
+  width: 1865px;
+  position: relative;
+
+}
+.img_slide28{
+  background-color:#4CB6CB ;
+}
+
+
+/*Slide 29*/
+.quadrado29{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 5000px;
+  left: 380px;
+}
+
+.quadrado29 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide29 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 30*/
+.mascote_title_ansiedade30 img{
+  margin-top:35px;
+  margin-left: 820px;
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+
+}
+
+.quadrado30{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 50px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-top: 55px;
+}
+
+.quadrado30 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.podcast{
+  position: relative;
+  bottom: 450px;
+  right: 95px;
+}
+
+/*Slide 31*/
+.mascote_title_ansiedade31 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado31{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+.quadrado31 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+/*FIM DA PÁGINA DE DEPRESSÃO*/
+
+/*INÍCIO DA PÁGINA DE TRANSTORNO DE PERSONALIDADE*/
+
+/*Slide 32*/
+.mascote_title_ansiedade32 img{
+  margin-top:35px;
+  margin-left: 720px;
+}
+
+.quadrado32{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 200px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado32 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 33*/
+.quadrado33{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3950px;
+  left: 380px;
+}
+
+.quadrado33 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide33 img{
+  width: 1865px;
+  position: relative;
+
+}
+
+/*Slide 34*/
+.mascote_title_ansiedade34 img{
+  margin-top:35px;
+  margin-right: 820px;
+}
+
+.quadrado34{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 200px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+
+.quadrado34> p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+/*Slide 35*/
+.mascote_title_ansiedade35 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado35{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 180px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado35> p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 36*/
+.quadrado36{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 6550px;
+  left: 380px;
+}
+
+.quadrado36 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide36 img{
+  width: 1865px;
+  position: relative;
+}
+
+/*Slide 37*/
+.mascote_title_ansiedade37 img{
+  margin-top:35px;
+  margin-left: 820px;
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+
+}
+
+.quadrado37{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 100px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-top: 55px;
+}
+
+.quadrado37 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.artistas{
+  position: relative;
+  bottom: 450px;
+  right: 95px;
+}
+
+/*FIM DA PÁGINA DE TRANSTORNO DE PERSONALIDADE*/
+
+/*INÍCIO DA PÁGINA DE AUTISMO*/
+
+/*Slide 38*/
+.mascote_title_ansiedade38 img{
+  margin-top:35px;
+  margin-right: 400px;
+}
+
+.quadrado38{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 200px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado38 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 39*/
+.quadrado39{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 190px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 3330px;
+  left: 380px;
+}
+
+.quadrado39 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img_slide39 img{
+  width: 1865px;
+  position: relative;
+}
+
+/*Slide 40*/
+.mascote_title_ansiedade40 img{
+  margin-top:35px;
+  margin-left: 400px;
+}
+
+.quadrado40{
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 110px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+}
+
+.quadrado40 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*Slide 41*/
+.quadrado41{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: 140px;
+  box-shadow: 9px 12px 2px 1px rgba(0, 0, 0, .2); 
+  margin-right: 250px; 
+  margin-bottom: 45px;
+  position: absolute;
+  top: 4930px;
+  
+  left: 380px;
+}
+
+.quadrado41 > p{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+
+/*FIM DA PÁGINA DE AUTISMO*/
+
+/*Footer*/
+.finally{
+    margin-top: 200px;
+    padding: 20px;
+    background-color: #47B0CD;
+}
+.second_image img{
+    height: 1000px;
+    margin-left: 88%;
+    margin-top: 2%;
+}
+
+
+
